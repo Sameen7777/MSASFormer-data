@@ -12,9 +12,9 @@ The dataset is available in this repository. The model code and instructions for
 
 ## Dataset
 
-**File:** [`bsm2_open_loop_15min.csv`](./bsm2_open_loop_15min.csv)
+**Data file:** `bsm2_open_loop_15min.csv`, provided inside [`bsm2_open_loop_15min.zip`](./bsm2_open_loop_15min.zip). Extract the ZIP archive before loading the CSV.
 
-[Download the CSV](https://raw.githubusercontent.com/Sameen7777/MSASFormer-data/main/bsm2_open_loop_15min.csv)
+[Download the dataset ZIP](https://raw.githubusercontent.com/Sameen7777/MSASFormer-data/main/bsm2_open_loop_15min.zip)
 
 The dataset was generated using the open-loop configuration of Benchmark Simulation Model No. 2 (BSM2). It contains simulated process variables and effluent-quality indicators, rather than measurements collected from a full-scale wastewater treatment plant.
 
@@ -133,7 +133,7 @@ This example loads the time series only. Chronological splitting, standardizatio
 
 ## File integrity
 
-The SHA-256 checksum of the CSV is provided in [`SHA256SUMS`](./SHA256SUMS). After downloading both files, verify the dataset on macOS with:
+The SHA-256 checksums of the ZIP archive and the extracted CSV are provided in [`SHA256SUMS`](./SHA256SUMS). After downloading the ZIP archive and checksum file, extract the CSV into the same directory and verify both files on macOS with:
 
 ```sh
 shasum -a 256 -c SHA256SUMS
